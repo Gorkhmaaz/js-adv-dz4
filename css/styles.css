@@ -1,0 +1,36 @@
+.add-link {
+    border-bottom: 1px dashed blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.textDisplay {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    min-height: 100px;
+}
+
+.textEditor {
+    display: none;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    min-height: 100px;
+    width: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  li {
+    cursor: pointer;
+  }
+  li:hover {
+    font-weight: bold;
+  }
+  .collapsed {
+    display: none;
+  }
